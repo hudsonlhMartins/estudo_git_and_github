@@ -1,3 +1,5 @@
+import {pageHome} from './pageHome/pageHome.js'
+
 
 import {util} from './utils/utils.js'
 const $ = document.querySelector.bind(document)
@@ -12,5 +14,5 @@ const juros = ()=>{
     $('#outro').append('', p)
 
 }
-
+pageHome.initial()
 $('#add').addEventListener('click', juros)
